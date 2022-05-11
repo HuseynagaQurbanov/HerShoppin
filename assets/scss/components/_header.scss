@@ -1,0 +1,187 @@
+a {
+  text-decoration: none;
+}
+
+#header {
+  #header-main {
+    z-index: 10;
+    .header-top {
+      .header-top-right {
+        list-style-type: none;
+        display: flex;
+        justify-content: flex-end;
+        font-family: $primary-font;
+
+        li {
+          margin-left: 20px;
+
+          &:hover {
+            a {
+              color: #666;
+              transition: all 0.4s;
+            }
+          }
+
+          a {
+            color: #999;
+            font-size: 12px;
+            line-height: 15px;
+          }
+        }
+      }
+    }
+
+    .sticky-header {
+      font-family: $primary-font;
+      font-weight: 600;
+      .header {
+        height: 64px !important;
+        .logo {
+          img {
+            width: 225px;
+          }
+        }
+
+        .searchbox {
+          position: relative;
+
+          .search-input {
+            height: auto;
+            line-height: unset;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            width: 90%;
+            font-size: 14px;
+            color: #333;
+            background-color: #f3f3f3;
+            border: 2px solid transparent;
+            border-radius: 6px;
+            padding: 10px 40px 10px 15px;
+            box-sizing: border-box;
+            outline: none;
+            transition: all ease 0.3s;
+
+            &:focus {
+              border-color: $primary-color;
+              background-color: #fff;
+              box-shadow: 0 1px 10px 0 #0000031f, 0 3px 10px 0 #0000031f;
+            }
+          }
+
+          span {
+            width: 18px;
+            height: 18px;
+            position: absolute;
+            right: 70px;
+            font-size: 20px;
+            color: $primary-color;
+            bottom: calc(50% - 9px);
+            cursor: pointer;
+          }
+        }
+
+        .account-nav {
+          .account-nav-wrap {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            width: 100%;
+
+            .account-nav-item {
+              display: flex;
+
+              .link {
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                position: relative;
+                height: 40px;
+
+                &:hover {
+                  .icons {
+                    .initial-icon {
+                      display: none;
+                    }
+
+                    .hover-icon {
+                      display: block;
+                    }
+                  }
+                }
+                .icons {
+                  position: relative;
+                  height: 18px;
+
+                  .initial-icon {
+                    display: block;
+                    font-size: 16px;
+                    transition: opacity 0.4s ease;
+                    color: #333333;
+                    transition: all 12.4s;
+                  }
+
+                  .hover-icon {
+                    display: none;
+                    color: $primary-color;
+                    font-size: 16px;
+                    transition: opacity 0.4s ease;
+                    margin-top: 0px;
+                    transition: all 12.4s;
+                  }
+                }
+
+                .link-text {
+                  font-size: 13px;
+                  color: #333333;
+                  padding-left: 12px;
+                  margin-top: 12px;
+                  line-height: 30px;
+
+                  &:hover {
+                    color: $primary-color;
+                  }
+                }
+              }
+
+              .login-dropdown {
+                display: none;
+                font-weight: 400;
+                background-color: #fff;
+                box-shadow: 0 3px 10px 0 rgb(0, 0, 0.7%);
+                border: solid 1px #e6e6e6;
+                border-radius: 6px;
+                position: absolute;
+                z-index: 999;
+                right: -62px;
+                width: 196px;
+                height: auto;
+                top: 40px;
+              }
+            }
+
+            .user-login {
+              position: relative;
+              cursor: pointer;
+              margin-left: 40px;
+              &.hover {
+                .login-dropdown {
+                  display: block;
+                }
+              }
+            }
+          }
+
+          .user-favorites {
+            position: relative;
+            cursor: pointer;
+          }
+
+          .user-basket {
+            position: relative;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

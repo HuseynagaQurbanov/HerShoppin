@@ -1,0 +1,2396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.min.css" />
+    <link rel="stylesheet" href="/assets/fonts/icons/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="header">
+        <div id="header-main">
+          <div class="header-top">
+            <div class="row">
+              <div class="col-lg-12">
+                <ul class="header-top-right">
+                  <li><a href="#">İndirim Kuponlarım</a></li>
+                  <li><a href="#">Trendshopping'de Satış Yap</a></li>
+                  <li><a href="#">Yardım & Destek</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="sticky-header">
+            <div class="header">
+              <div class="row">
+                <div class="col-lg-3">
+                  <div class="logo">
+                    <a href="#" title="trendshopping"
+                      ><img src="assets/img/logo.svg" alt=""
+                    /></a>
+                  </div>
+                </div>
+                <div class="col-lg-5">
+                  <div class="searchbox">
+                    <input
+                      type="text"
+                      placeholder="Aradığınız ürün, kategori veya markayı yazınız"
+                      class="search-input"
+                    />
+                    <span class="icon-search"></span>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="account-nav">
+                    <div class="account-nav-wrap">
+                      <div class="account-nav-item user-login">
+                        <div class="link user-account">
+                          <div class="icons">
+                            <i class="fa-regular fa-user initial-icon"></i>
+                            <i class="fa-solid fa-user hover-icon"></i>
+                          </div>
+                          <p class="link-text">Giriş Yap</p>
+                        </div>
+                        <div class="login-dropdown">
+                          <div class="user-notloggedin-container">
+                            <div class="login-button">Giriş Yap</div>
+                            <div class="signup-button">Üye Ol</div>
+                          </div>
+                        </div>
+                      </div>
+                      <a class="account-nav-item user-favorites">
+                        <div class="link">
+                          <div class="icons">
+                            <i class="fa-regular fa-heart initial-icon"></i>
+                            <i class="fa-solid fa-heart hover-icon"></i>
+                          </div>
+                          <p class="link-text">Favorilerim</p>
+                        </div>
+                      </a>
+                      <div class="account-nav-item user-basket">
+                        <a class="link account-basket" href="#">
+                          <div class="icons">
+                            <i class="fa-regular fa-store initial-icon"></i>
+                            <i class="fa-solid fa-store hover-icon"></i>
+                          </div>
+                          <p class="link-text">Sepetim</p>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="enhanced-nav">
+        <div class="nav">
+          <div class="naw-wrap">
+            <div class="row">
+              <div class="col-lg-12">
+                <nav>
+                  <ul class="main-nav">
+                    <li class="tab-link">
+                      <a href="#" class="category-header">Kadın</a>
+                      <div class="sub-nav">
+                        <div class="sub-nav-center">
+                          <div class="sub-nav-outer">
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Giyim</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li><a href="#">Elbise</a></li>
+                                  <li><a href="#">Tişört</a></li>
+                                  <li><a href="#">Gömlek</a></li>
+                                  <li><a href="#">Kot Pantolon</a></li>
+                                  <li><a href="#">Kot Ceket</a></li>
+                                  <li><a href="#">Pantolon</a></li>
+                                  <li><a href="#">Mont</a></li>
+                                  <li><a href="#">Bluz</a></li>
+                                  <li><a href="#">Ceket</a></li>
+                                  <li><a href="#">Etek</a></li>
+                                  <li><a href="#">Kazak</a></li>
+                                  <li><a href="#">Tesettür</a></li>
+                                  <li><a href="#">Büyük Beden</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Ayakkabı</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li><a href="#">Topuklu Ayakkabı</a></li>
+                                  <li><a href="#">Sneaker</a></li>
+                                  <li><a href="#">Günlük Ayakkabı</a></li>
+                                  <li><a href="#">Babet</a></li>
+                                  <li><a href="#">Sandalet</a></li>
+                                  <li><a href="#">Terlik</a></li>
+                                </ul>
+                              </div>
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Aksesuar & Çanta</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li><a href="#">Çanta</a></li>
+                                  <li><a href="#">Saat</a></li>
+                                  <li><a href="#">Takı </a></li>
+                                  <li><a href="#">Şapka</a></li>
+                                  <li><a href="#">Cüzdan</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >İç Giyim</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li><a href="#">Pijama Takımı</a></li>
+                                  <li><a href="#">Gecelik</a></li>
+                                  <li><a href="#">Sütyen</a></li>
+                                  <li><a href="#">İç Çamaşırı Takımları</a></li>
+                                  <li><a href="#">Fantezi Giyim</a></li>
+                                  <li><a href="#">Çorap</a></li>
+                                </ul>
+                              </div>
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Lüks & Designer</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li><a href="#">Lüks Çanta</a></li>
+                                  <li><a href="#">Lüks Giyim</a></li>
+                                  <li><a href="#">Lüks Ayakkabı</a></li>
+                                  <li><a href="#">Tasarım Giyim</a></li>
+                                  <li><a href="#">Tasarım Ayakkabı</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Kozmetik</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li><a href="#">Parfüm</a></li>
+                                  <li><a href="#">Göz Makyajı</a></li>
+                                  <li><a href="#">Cilt Bakım</a></li>
+                                  <li><a href="#">Saç Bakımı</a></li>
+                                  <li><a href="#">Makyaj</a></li>
+                                  <li><a href="#">Ağız Bakım</a></li>
+                                  <li><a href="#">Cinsel Sağlık</a></li>
+                                  <li><a href="#">Vücut Bakım</a></li>
+                                  <li><a href="#">Hijyenik Ped</a></li>
+                                  <li><a href="#">Duş Jeli & Kremleri</a></li>
+                                  <li><a href="#">Epilasyon Ürünleri</a></li>
+                                  <li><a href="#">Ruj</a></li>
+                                  <li><a href="#">Güneş Kremi</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Spor & Outdoor</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li><a href="#">Sweatshirt</a></li>
+                                  <li><a href="#">Tişört</a></li>
+                                  <li><a href="#">Spor Sütyeni</a></li>
+                                  <li><a href="#">Tayt</a></li>
+                                  <li><a href="#">Eşofman</a></li>
+                                  <li><a href="#">Koşu Ayakkabısı </a></li>
+                                  <li><a href="#">Spor Çantası</a></li>
+                                  <li><a href="#">Spor Ekipmanları</a></li>
+                                  <li><a href="#">Outdoor Ayakkabı</a></li>
+                                  <li><a href="#">Kar Botu</a></li>
+                                  <li><a href="#">Outdoor Ekipmanları</a></li>
+                                  <li><a href="#">Sporcu Besinleri</a></li>
+                                  <li><a href="#">Sporcu Aksesuarları</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="campaign-container">
+                              <div
+                                class="normal-column small-collection-container"
+                              >
+                                <a href=""
+                                  ><img
+                                    src="https://cdn.dsmcdn.com/ty426/pimWidgetApi/mobile_20220510071200_bbf1f4fa990.jpg" /></a
+                                ><a href=""
+                                  ><img
+                                    src="https://cdn.dsmcdn.com/mnresize/500/247/ty428/campaign/banners/original/604851/1f804b7f41_0_detay.jpg"
+                                    alt=""
+                                /></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="tab-link">
+                      <a href="#" class="category-header">Erkek</a>
+                      <div class="sub-nav">
+                        <div class="sub-nav-center">
+                          <div class="sub-nav-outer">
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Giyim</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li><a href="#">Tişört</a></li>
+                                  <li><a href="#">Şort</a></li>
+                                  <li><a href="#">Gömlek</a></li>
+                                  <li><a href="#">Eşofman</a></li>
+                                  <li><a href="#">Pantolon</a></li>
+                                  <li><a href="#">Ceket</a></li>
+                                  <li><a href="#">Kot Pantolon</a></li>
+                                  <li><a href="#">Yelek</a></li>
+                                  <li><a href="#">Kazak</a></li>
+                                  <li><a href="#">Mont</a></li>
+                                  <li><a href="#">Takım Elbise</a></li>
+                                  <li><a href="#">Sweatshirt</a></li>
+                                  <li><a href="#">Forma</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Ayakkabı</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li><a href="#">Spor Ayakkabı</a></li>
+                                  <li><a href="#">Günlük Ayakkabı</a></li>
+                                  <li><a href="#">Yürüyüş Ayakkabısı</a></li>
+                                  <li><a href="#">Krampon</a></li>
+                                  <li><a href="#">Sneaker</a></li>
+                                  <li><a href="#">Klasik</a></li>
+                                </ul>
+                              </div>
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Kişisel Bakım</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li><a href="#">Parfüm</a></li>
+                                  <li><a href="#">Cinsel Sağlık</a></li>
+                                  <li>
+                                    <a href="#">Tıraş Sonrası Ürünler </a>
+                                  </li>
+                                  <li><a href="#">Tıraş Bıçağı</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Saat & Aksesuar</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li><a href="#">Saat</a></li>
+                                  <li><a href="#">Güneş Gözlüğü</a></li>
+                                  <li><a href="#">Cüzdan</a></li>
+                                  <li><a href="#">Kemer</a></li>
+                                  <li><a href="#">Çanta</a></li>
+                                  <li><a href="#">Şapka</a></li>
+                                  <li><a href="#">Bileklik</a></li>
+                                </ul>
+                              </div>
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >İç Giyim</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li><a href="#">Boxer</a></li>
+                                  <li><a href="#">Çorap</a></li>
+                                  <li><a href="#">Pijama</a></li>
+                                  <li><a href="#">Atlet</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Spor & Outdoor</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li><a href="#">Eşofman</a></li>
+                                  <li><a href="#">Spor Ayakkabı</a></li>
+                                  <li><a href="#">T-shirt</a></li>
+                                  <li><a href="#">Sweatshirt</a></li>
+                                  <li><a href="#">Forma</a></li>
+                                  <li><a href="#">Spor Çorap</a></li>
+                                  <li><a href="#">Spor Giyim</a></li>
+                                  <li><a href="#">Outdoor Ayakkabı</a></li>
+                                  <li><a href="#">Outdoor Bot</a></li>
+                                  <li><a href="#">Spor Ekipmanları</a></li>
+                                  <li><a href="#">Outdoor Ekipmanları</a></li>
+                                  <li><a href="#">Sporcu Besinleri</a></li>
+                                  <li><a href="#">Sporcu Aksesuarları</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Spor & Outdoor</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li><a href="#">Sweatshirt</a></li>
+                                  <li><a href="#">Tişört</a></li>
+                                  <li><a href="#">Spor Sütyeni</a></li>
+                                  <li><a href="#">Tayt</a></li>
+                                  <li><a href="#">Eşofman</a></li>
+                                  <li><a href="#">Koşu Ayakkabısı </a></li>
+                                  <li><a href="#">Spor Çantası</a></li>
+                                  <li><a href="#">Spor Ekipmanları</a></li>
+                                  <li><a href="#">Outdoor Ayakkabı</a></li>
+                                  <li><a href="#">Kar Botu</a></li>
+                                  <li><a href="#">Outdoor Ekipmanları</a></li>
+                                  <li><a href="#">Sporcu Besinleri</a></li>
+                                  <li><a href="#">Sporcu Aksesuarları</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="campaign-container">
+                              <div
+                                class="normal-column small-collection-container"
+                              >
+                                <a href=""
+                                  ><img
+                                    src="https://cdn.dsmcdn.com/ty428/pimWidgetApi/mobile_20220510071215_d4d377b1c72.jpg"
+                                    alt="" /></a
+                                ><a href=""
+                                  ><img
+                                    src="https://cdn.dsmcdn.com/mnresize/500/247/ty428/campaign/banners/original/604851/1f804b7f41_0_detay.jpg"
+                                    alt=""
+                                /></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="tab-link">
+                      <a href="#" class="category-header">Çocuk</a>
+                      <div class="sub-nav">
+                        <div class="sub-nav-center">
+                          <div class="sub-nav-outer">
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Bebek</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Bebek Takımları</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Ayakkabı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Hastane Çıkışı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Yenidoğan Kıyafetleri</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Tulum &amp; Salopet</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Body &amp; Zıbın</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Tişört &amp; Atlet</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Elbise</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Şort</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Bebek Patiği</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Bebek Bezi</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Bebek Maması</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Islak Mendil</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Kız Çocuk</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Elbise</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Sweatshirt</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Spor Ayakkabı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Eşofman</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">İç Giyim &amp; Pijama</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Tişört &amp; Atlet</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Tayt</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Günlük Ayakkabı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Şort</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Mont</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Çocuk Oyun Evi</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Oyuncak Bebek</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Oyuncak Mutfak</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Erkek Çocuk</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Sweatshirt</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Spor Ayakkabı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Eşofman</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">İç Giyim &amp; Pijama</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Tişört &amp; Atlet</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Günlük Ayakkabı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Okul Çantası</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Şort</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Gömlek</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Mont</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Oyuncak Traktör</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Akülü Araba</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Kumandalı Araba</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Bebek Bakım</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Banyo &amp; Tuvalet</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Bebek Şampuanı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Krem &amp; Yağlar</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Bebek Çantası</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Oyuncak</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Eğitici Oyuncaklar</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Oyuncak Araba</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Oyuncak Bebek</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Bebek &amp; Okul Öncesi</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Kumandalı Oyuncak</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Robot Oyuncak</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Oyun Hamuru</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Taşıma &amp; Güvenlik</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Bebek Arabası &amp; Puset</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Park Yatak</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Ana Kucağı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Portbebe &amp; Kanguru</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Yürüteç</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Oto Koltuğu</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Beslenme Emzirme</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Biberon &amp; Emzik</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Göğüs Pompası</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Mama Sandalyesi</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Mama Önlüğü</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Alıştırma Bardağı</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="campaign-container">
+                              <div
+                                class="normal-column small-collection-container"
+                              >
+                                <a href="javascript:void(0)"
+                                  ><img
+                                    src="https://cdn.dsmcdn.com/mnresize/500/247/ty423/campaign/banners/original/605308/287512107a_0_detay.jpg"
+                                    alt="" /></a
+                                ><a href="javascript:void(0)"
+                                  ><img
+                                    src="https://cdn.dsmcdn.com/ty416/pimWidgetApi/mobile_20220505055005_2133232CocukMobile202204261501.jpg"
+                                    alt=""
+                                /></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="tab-link">
+                      <a href="#" class="category-header">Ev & Mobilya</a>
+                      <div class="sub-nav">
+                        <div class="sub-nav-center">
+                          <div class="sub-nav-outer">
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Sofra &amp; Mutfak</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Yemek Takımı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Çatal Kaşık Bıçak Seti</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Baharat Takımı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Bardak</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Fırın &amp; Kek Kalıbı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Çaydanlık</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Tencere Seti</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Banyo</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Havlu &amp; Havlu Seti</a>
+                                  </li>
+                                  <li><a href="#">Bornoz</a></li>
+                                  <li>
+                                    <a href="#">Banyo Seti</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Banyo Paspası</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Ev Tekstili</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Yatak Odası</a>
+                                  </li>
+                                  <li>
+                                    <a href="#"
+                                      >Halı &amp; Kilim &amp; Paspas</a
+                                    >
+                                  </li>
+                                  <li><a href="#">Perde</a></li>
+                                  <li>
+                                    <a href="#">Nevresim Takımı</a>
+                                  </li>
+                                  <li><a href="#">Yastık</a></li>
+                                  <li>
+                                    <a href="#">Kırlent ve Kılıfı</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Ev Dekorasyon</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Dekoratif Aksesuar</a>
+                                  </li>
+                                  <li><a href="#">Tablo</a></li>
+                                  <li>
+                                    <a href="#">Duvar Saati</a>
+                                  </li>
+                                  <li><a href="#">Ayna</a></li>
+                                  <li>
+                                    <a href="#">Trendyol Sanat</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Aydınlatma</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li><a href="#">Avize</a></li>
+                                  <li>
+                                    <a href="#">Lambader</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Abajur</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Mobilya</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Salon &amp; Oturma Odası</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Yatak Odası</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Bahçe Mobilyası</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Çalışma Odası</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Ev Gereçleri</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Düzenleyici</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Çamaşırlık</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Sepet &amp; Saklama Kutusu</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header">Hobi</a>
+                                <ul class="sub-item-list">
+                                  <li><a href="#">Kitap</a></li>
+                                  <li><a href="#">Puzzle</a></li>
+                                  <li>
+                                    <a href="#">Boya &amp; Resim</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Kutu Oyunları</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Kırtasiye &amp; Ofis</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li><a href="#">Defter</a></li>
+                                  <li><a href="#">Kalem</a></li>
+                                </ul>
+                              </div>
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Spor &amp; Outdoor</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Koşu Bandı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Dumbell &amp; Ağırlık</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Pilates &amp; Yoga</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Eliptik Bisiklet</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Otomobil &amp; Motosiklet</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Oto Aksesuar</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Oto Paspası</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Oto Lastik</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Kask</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Yapı Market</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Banyo Yapı Malzemeleri</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Elektrikli El Aleti</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Hırdavat Ürünleri</a>
+                                  </li>
+                                  <li><a href="#">Boya</a></li>
+                                  <li>
+                                    <a href="#">Matkap</a>
+                                  </li>
+                                  <li><a href="#">Ampul</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="campaign-container">
+                              <div
+                                class="normal-column small-collection-container"
+                              >
+                                <a href=""
+                                  ><img
+                                    src="https://cdn.dsmcdn.com/ty416/pimWidgetApi/mobile_20220505055005_2133232CocukMobile202204261501.jpg"
+                                    alt="" /></a
+                                ><a href=""
+                                  ><img
+                                    src="https://cdn.dsmcdn.com/mnresize/500/247/ty424/campaign/banners/original/602312/cae33ea046_0_detay.jpg"
+                                    alt=""
+                                /></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="tab-link">
+                      <a href="#" class="category-header">Süpermarket</a>
+                      <div class="sub-nav">
+                        <div class="sub-nav-center">
+                          <div class="sub-nav-outer">
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Ev &amp; Temizlik</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Çamaşır Yıkama</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Bulaşık Yıkama</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Ev Temizlik</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Paspas &amp; Mop</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Kağıt Ürünleri</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header">Gıda</a>
+                                <ul class="sub-item-list">
+                                  <li><a href="#">Çay</a></li>
+                                  <li><a href="#">Kahve</a></li>
+                                  <li>
+                                    <a href="#">Kuruyemiş</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Kahvaltılık</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Organik Ürünler</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Diyabetik Ürünler</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Kişisel Bakım</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Saç Bakımı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Ağda &amp; Epilasyon</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Banyo &amp; Duş</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Ağız Bakım</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Cilt Bakımı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Vücut Bakımı</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Sağlık &amp; Spor</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Cinsel Sağlık</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Hijyenik Ped</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Sporcu Besinleri</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Vitamin &amp; Ek Gıda</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Hasta Bezi &amp; Temizlik</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Petshop</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Kedi Maması</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Kedi Kumu</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Köpek Maması</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Köpek Tasması</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Kuş Ürünleri</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Akvaryum Ürünleri</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Bebek Bakım</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Süt Arttırıcı İçecekler</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Bebek Ek Besin</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Bebek Bezi</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Islak Mendil &amp; Havlu</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Bebek Kozmetik</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="campaign-container">
+                              <div
+                                class="normal-column small-collection-container"
+                              >
+                                <a href=""
+                                  ><img
+                                    src="https://cdn.dsmcdn.com/mnresize/500/247/ty413/campaign/banners/original/604987/c814b72b1f_0_detay.jpg"
+                                    alt="" /></a
+                                ><a href=""
+                                  ><img
+                                    src="https://cdn.dsmcdn.com/mnresize/500/247/ty423/campaign/banners/original/605308/287512107a_0_detay.jpg"
+                                    alt=""
+                                /></a>
+                              </div>
+                              <div
+                                class="normal-column small-collection-container"
+                              >
+                                <a href=""
+                                  ><img
+                                    src="https://cdn.dsmcdn.com/ty411/pimWidgetApi/mobile_20220429131046_2227025SupermarketMobile202204291602.jpg"
+                                    alt="" /></a
+                                ><a href=""
+                                  ><img
+                                    src="https://cdn.dsmcdn.com/mnresize/500/247/ty412/campaign/banners/original/601799/a205acd141_0_detay.jpg"
+                                    alt=""
+                                /></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="tab-link">
+                      <a href="#" class="category-header">Kozmetik</a>
+                      <div class="sub-nav">
+                        <div class="sub-nav-center">
+                          <div class="sub-nav-outer">
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Makyaj</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Göz Makyajı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Ten Makyajı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Dudak Makyajı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Makyaj Seti</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Oje &amp; Aseton</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Fondöten</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Parfüm &amp; Deodorant
+                                </a>
+                                <ul class="sub-item-list">
+                                  <li><a href="#">Parfüm</a></li>
+                                  <li>
+                                    <a href="#">Parfüm Setleri</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Deodorant &amp; Roll-on</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Vücut Spreyi</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Cilt Bakımı</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Yüz Kremi</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Yüz Temizleme</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Yüz Maskesi</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Göz Bakımı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Güneş Koruyucu</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Cilt Serumu</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">El &amp; Ayak Bakımı</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Saç Bakımı</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Şampuan</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Saç Şekillendirici</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Saç Serumu &amp; Maskesi</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Saç Boyası</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Epilasyon &amp; Tıraş</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Tüy Dökücü</a>
+                                  </li>
+                                  <li><a href="#">Ağda</a></li>
+                                  <li>
+                                    <a href="#">Tıraş Bıçağı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Epilatör</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Tıraş Köpüğü</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Genel Bakım</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Cinsel Sağlık</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Hijyenik Ped</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Vücut Bakımı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">El ve Ayak Bakımı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Duş Jeli ve Kremi</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Bakım Yağları</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="campaign-container">
+                              <div
+                                class="normal-column small-collection-container"
+                              >
+                                <a href=""
+                                  ><img
+                                    src="https://cdn.dsmcdn.com/mnresize/500/247/ty390/campaign/banners/original/603009/e85192fa32_0_detay.jpg"
+                                    alt="" /></a
+                                ><a href=""
+                                  ><img
+                                    src="https://cdn.dsmcdn.com/mnresize/500/247/ty418/campaign/banners/original/604924/cf2f3e0a7d_0_detay.jpg"
+                                    alt=""
+                                /></a>
+                              </div>
+                              <div
+                                class="normal-column small-collection-container"
+                              >
+                                <a href=""
+                                  ><img
+                                    src="https://cdn.dsmcdn.com/mnresize/500/247/ty419/campaign/banners/original/605228/8ff99793c6_0_detay.jpg"
+                                    alt="" /></a
+                                ><a href=""
+                                  ><img
+                                    src="https://cdn.dsmcdn.com/ty313/pimWidgetApi/mobile_20220131061604_2174476KozmetikMobile202201281801.jpg"
+                                    alt=""
+                                /></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="tab-link">
+                      <a href="#" class="category-header">Ayakkabı & Çanta</a>
+                      <div class="sub-nav">
+                        <div class="sub-nav-center">
+                          <div class="sub-nav-outer">
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Kadın Ayakkabı</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Spor Ayakkabı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Topuklu Ayakkabı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Günlük Ayakkabı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Bot &amp; Bootie</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Sandalet</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Terlik</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Kadın Çanta</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Omuz Çantası</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Sırt Çantası</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Cüzdan</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Spor Çantası</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Bel Çantası</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Erkek Ayakkabı</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Spor Ayakkabı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Günlük Ayakkabı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Klasik Ayakkabı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Bot</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Sneaker</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Koşu Ayakkabısı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Krampon</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Erkek Çanta</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Sırt Çantası</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Postacı Çantası</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Cüzdan &amp; Kartlık</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Spor Çantası</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Çocuk Ayakkabı</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Spor Ayakkabı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Günlük Ayakkabı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Babet</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Çocuk Çanta</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Sırt Çantası</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Okul Çantası</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Lüks &amp; Designer</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Lüks Çanta</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Lüks Ayakkabı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Tasarım Çanta</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Tasarım Ayakkabı</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="campaign-container">
+                              <div
+                                class="normal-column small-collection-container"
+                              >
+                                <a href=""
+                                  ><img
+                                    src="https://cdn.dsmcdn.com/mnresize/500/247/ty371/campaign/banners/original/595230/239e9fe287_0_detay.jpg"
+                                    alt="" /></a
+                                ><a href=""
+                                  ><img
+                                    src="https://cdn.dsmcdn.com/ty427/pimWidgetApi/mobile_20220510130436_SohoExclusiveSohoMenAyakkabiFirsati2227234mobile.jpg"
+                                    alt=""
+                                /></a>
+                              </div>
+                              <div
+                                class="normal-column small-collection-container"
+                              >
+                                <a href=""
+                                  ><img
+                                    src="https://cdn.dsmcdn.com/mnresize/500/247/ty428/campaign/banners/original/605307/ab8613e2ba_0_detay.jpg"
+                                    alt="" /></a
+                                ><a href=""
+                                  ><img
+                                    src="https://cdn.dsmcdn.com/ty426/pimWidgetApi/mobile_20220510130449_Boyner2227257mobile.jpg"
+                                    alt=""
+                                /></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="tab-link">
+                      <a href="#" class="category-header">Saat & Aksesuar</a>
+                      <div class="sub-nav">
+                        <div class="sub-nav-center">
+                          <div class="sub-nav-outer">
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Kadın</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Saat</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Güneş Gözlüğü</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Takı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Cüzdan</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Kemer</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Şapka</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Atkı Bere Eldiven</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Şal &amp; Fular</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Şemsiye</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Gözlük Kabı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Saç Aksesuarı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Hasır Bilezik</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Burma Bilezik</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">22 Ayar Bilezik</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Takı &amp; Mücevher</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li><a href="#">Kolye</a></li>
+                                  <li><a href="#">Küpe</a></li>
+                                  <li>
+                                    <a href="#">Bileklik</a>
+                                  </li>
+                                  <li><a href="#">Halhal</a></li>
+                                  <li><a href="#">Yüzük</a></li>
+                                  <li><a href="#">Altın</a></li>
+                                  <li>
+                                    <a href="#">Piercing</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Elektronik Aksesuarlar</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Telefon Kılıfı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Akıllı Saat</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Akıllı Bileklik</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Erkek</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Saat</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Güneş Gözlüğü</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Cüzdan &amp; Kartlık</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Kemer</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Bileklik</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Şapka Bere Eldiven</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Kravat</a>
+                                  </li>
+                                  <li><a href="#">Valiz</a></li>
+                                </ul>
+                              </div>
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Çocuk Aksesuar</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Saat</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Güneş Gözlüğü</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Şapka</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="campaign-container">
+                              <div
+                                class="normal-column small-collection-container"
+                              >
+                                <a href=""
+                                  ><img
+                                    src="https://cdn.dsmcdn.com/ty428/pimWidgetApi/mobile_20220510085413_mobile202205061121492227090SaatAksesuarMobile202205061301.jpg"
+                                    alt="" /></a
+                                ><a href=""
+                                  ><img
+                                    src="https://cdn.dsmcdn.com/mnresize/500/247/ty393/campaign/banners/original/603504/d8791a7dd7_0_detay.jpg"
+                                    alt=""
+                                /></a>
+                              </div>
+                              <div
+                                class="normal-column small-collection-container"
+                              >
+                                <a href=""
+                                  ><img
+                                    src="https://cdn.dsmcdn.com/ty428/pimWidgetApi/mobile_20220510083106_mobile20220505092255mobile20220430192539csdcsdds.jpg"
+                                    alt="" /></a
+                                ><a href=""
+                                  ><img
+                                    src="https://cdn.dsmcdn.com/ty411/pimWidgetApi/mobile_20220429083044_mobile20220330104953kuponlumob.jpg"
+                                    alt=""
+                                /></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="tab-link">
+                      <a href="#" class="category-header">Elektronik</a>
+                      <div class="sub-nav">
+                        <div class="sub-nav-center">
+                          <div class="sub-nav-outer">
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Küçük Ev Aletleri</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Süpürge</a>
+                                  </li>
+                                  <li><a href="#">Ütü</a></li>
+                                  <li>
+                                    <a href="#">Robot Süpürge</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Kahve Makinesi</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Blender</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Çay Makinesi</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Tost Makinesi</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Waffle Makinesi</a>
+                                  </li>
+                                  <li><a href="#">Tartı</a></li>
+                                </ul>
+                              </div>
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Giyilebilir Teknoloji</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Akıllı Saat</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Akıllı Bileklik</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Telefon</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Cep Telefonu</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Kapak &amp; Kılıf</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Şarj Cihazları</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Powerbank</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Bilgisayar &amp; Tablet</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Laptop</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Tablet</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Bilgisayar Bileşenleri</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Monitör</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Yazıcı &amp; Tarayıcı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Çevre Birimleri</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Ağ &amp; Modem</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >TV &amp; Görüntü &amp; Ses</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Televizyon</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Soundbar</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Projeksiyon Cihazı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Media Player</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Hoparlör</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Kulaklık</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Kişisel Bakım Aletleri</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Saç Düzleştirici</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Tıraş Makinesi</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Saç Maşası</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Saç Kurutma Makinesi</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Epilasyon Aleti</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Beyaz Eşya</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Buzdolabı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Çamaşır Makinesi</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Bulaşık Makinesi</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Ankastre</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Derin Dondurucu</a>
+                                  </li>
+                                  <li><a href="#">Klima</a></li>
+                                  <li><a href="#">Kombi</a></li>
+                                </ul>
+                              </div>
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Elektronik Aksesuarlar</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Bilgisayar Aksesuar</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Telefon Aksesuarları</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">TV Aksesuarları</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Veri Depolama</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Oyunculara Özel</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Playstation</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Xbox</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Nintendo</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Playstation Oyunları</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Konsol Aksesuarları</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Oyuncu Bilgisayarı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Oyuncu Donanımları</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Oyuncu Monitörleri</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="category-box">
+                                <a href="x" class="sub-category-header"
+                                  >Foto &amp; Kamera</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Aksiyon Kamera</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Fotoğraf Makinesi</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="campaign-container">
+                              <div
+                                class="normal-column small-collection-container"
+                              >
+                                <a href=""
+                                  ><img
+                                    src="https://cdn.dsmcdn.com/mnresize/500/247/ty417/campaign/banners/original/605193/598e372bce_0_detay.jpg"
+                                    alt="" /></a
+                                ><a href=""
+                                  ><img
+                                    src="https://cdn.dsmcdn.com/ty378/pimWidgetApi/mobile_20220401070557_2159340ElektronikMobile202203301401.jpg"
+                                    alt=""
+                                /></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="tab-link">
+                      <a href="#" class="category-header">Spor&Outdoor</a>
+                      <div class="sub-nav">
+                        <div class="sub-nav-center">
+                          <div class="sub-nav-outer">
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Spor Giyim</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Spor Tişört</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Spor Şort</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Spor Tayt</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Sporcu Sütyeni</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Eşofman</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Spor Sweatshirt</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Yağmurluk</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Spor Yelek</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Spor Atlet</a>
+                                  </li>
+                                  <li><a href="#">Forma</a></li>
+                                  <li>
+                                    <a href="#">Spor Mont</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Spor Şapka</a>
+                                  </li>
+                                  <li><a href="#">Çorap</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Spor Ayakkabı</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Sneaker</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Koşu Ayakkabısı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Halı Saha Ayakkabısı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Basketbol Ayakkabısı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Yürüyüş Ayakkabısı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Outdoor Ayakkabı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Tenis Ayakkabısı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Voleybol Ayakkabısı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Fitness Ayakkabısı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Deniz Ayakkabısı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Kaykay Ayakkabısı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Outdoor Bot</a>
+                                  </li>
+                                  <li><a href="#">Terlik</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Spor Malzemeleri</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Deniz &amp; Plaj</a>
+                                  </li>
+                                  <li><a href="#">Kaykay</a></li>
+                                  <li><a href="#">Paten</a></li>
+                                  <li>
+                                    <a href="#">Kamp Malzemeleri</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Dağcılık &amp; Tırmanış</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Aksiyon Kamera</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Çadır Uyku Tulumu</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Su Sporu Malzemeleri</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Dalış Malzemeleri</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Balıkçılık Malzemeleri</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Tenis Malzemeleri</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Kayak ve Snowboard</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Okçuluk</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Bisiklet</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Şehir Bisikleti</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Dağ Bisikleti</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Fitness Kondisyon</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Pilates Malzemeleri</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Fitness Aletleri</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Kondisyon Bisikleti</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Koşu Bandı</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Yoga Malzemeleri</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Dambıl Seti</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Ağırlık Plakaları</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Barfiks</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="normal-column">
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header"
+                                  >Sporcu Besinleri</a
+                                >
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Protein Tozu</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Amino Asit</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Karbonhidrat</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">L-Karnitin (CLA)</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Güç ve Performans</a>
+                                  </li>
+                                  <li>
+                                    <a href="#"
+                                      >Gıda Takviyesi &amp; Vitaminler</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a href="#">Kreatin</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Protein Bar</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Shaker</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="category-box">
+                                <a href="#" class="sub-category-header">Top</a>
+                                <ul class="sub-item-list">
+                                  <li>
+                                    <a href="#">Basketbol Topu</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Futbol Topu</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="campaign-container">
+                              <div
+                                class="normal-column small-collection-container"
+                              >
+                                <a href=""
+                                  ><img
+                                    src="https://cdn.dsmcdn.com/mnresize/500/247/ty371/campaign/banners/original/595230/239e9fe287_0_detay.jpg"
+                                    alt="" /></a
+                                ><a href=""
+                                  ><img
+                                    src="https://cdn.dsmcdn.com/mnresize/500/247/ty371/campaign/banners/original/595230/239e9fe287_0_detay.jpg"
+                                    alt=""
+                                /></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="browsing-gw-homepage">
+        <div class="homepage-wrap">
+          <div class="component-list component-small-list">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="component-item">
+                  <a href="#" class="widget widget-small-with-name"
+                    ><span class="image-container">
+                      <img
+                        src="https://cdn.dsmcdn.com/ty426/pimWidgetApi/mobile_20220510071200_bbf1f4fa990.jpg"
+                    /></span>
+                    <summary class="campaign-summary">
+                      <span class="name"
+                        >Trendyol Collection - Yeni Sezon Fırsatları</span
+                      ><span class="hover-text"></span>
+                    </summary>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="component-item">
+                  <a href="#" class="widget widget-small-with-name"
+                    ><span class="image-container">
+                      <img
+                        src="https://cdn.dsmcdn.com/ty391/campaign/banners/original/603009/4b09265763_1.jpg"
+                    /></span>
+                    <summary class="campaign-summary">
+                      <span class="name">Fenomenlerin Kozmetik Seçimleri </span
+                      ><span class="hover-text"></span>
+                    </summary>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="component-item">
+                  <a href="#" class="widget widget-small-with-name"
+                    ><span class="image-container">
+                      <img
+                        src="https://cdn.dsmcdn.com/ty428/pimWidgetApi/mobile_20220510044026_2227213AyakkabiCantaMobile202205091701.jpg"
+                    /></span>
+                    <summary class="campaign-summary">
+                      <span class="name"
+                        >Fenomen Seçimleri - Mayıs Fırsatları</span
+                      ><span class="hover-text"></span>
+                    </summary>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="component-item">
+                  <a href="#" class="widget widget-small-with-name"
+                    ><span class="image-container">
+                      <img
+                        src="https://cdn.dsmcdn.com/ty413/campaign/banners/original/604763/13e0b99360_1.jpg"
+                    /></span>
+                    <summary class="campaign-summary">
+                      <span class="name"
+                        >Elektrikli Ev ve Kişisel Bakım Aletlerinde Anneler
+                        Gününe Özel Fırsatlar</span
+                      ><span class="hover-text"></span>
+                    </summary>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="component-item">
+                  <a href="#" class="widget widget-small-with-name"
+                    ><span class="image-container">
+                      <img
+                        src="https://cdn.dsmcdn.com/ty428/campaign/banners/original/604851/3dfc7971be_1.jpg"
+                    /></span>
+                    <summary class="campaign-summary">
+                      <span class="name"
+                        >Çeyiz Hazırlığınıza Özel 500TL Üzerine 70TL İndirim
+                        Fırsatı!</span
+                      ><span class="hover-text"></span>
+                    </summary>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="component-item">
+                  <a href="#" class="widget widget-small-with-name"
+                    ><span class="image-container">
+                      <img
+                        src="https://cdn.dsmcdn.com/ty426/pimWidgetApi/mobile_20220510084021_mobile20220506082904mobile20220505091811mobile20220430191443ssdasda.jpg"
+                    /></span>
+                    <summary class="campaign-summary">
+                      <span class="name">Gözlükte İndirim Zamanı</span
+                      ><span class="hover-text"></span>
+                    </summary>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="component-item">
+                  <a href="#" class="widget widget-small-with-name"
+                    ><span class="image-container">
+                      <img
+                        src="https://cdn.dsmcdn.com/ty411/campaign/banners/original/594810/9bb3d90884_1.jpg"
+                    /></span>
+                    <summary class="campaign-summary">
+                      <span class="name">Penti - Ev Giyim & İç Giyim</span
+                      ><span class="hover-text"></span>
+                    </summary>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="component-item">
+                  <a href="#" class="widget widget-small-with-name"
+                    ><span class="image-container">
+                      <img
+                        src="https://cdn.dsmcdn.com/ty408/pimWidgetApi/mobile_20220425055250_2172106KadinMobile202204181801.jpg"
+                    /></span>
+                    <summary class="campaign-summary">
+                      <span class="name"
+                        >Mango - Kadın & Erkek & Çocuk Tekstil</span
+                      ><span class="hover-text"></span>
+                    </summary>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="component-item">
+                  <a href="#" class="widget widget-small-with-name"
+                    ><span class="image-container">
+                      <img
+                        src="https://cdn.dsmcdn.com/ty413/pimWidgetApi/mobile_20220429055826_2160167KadinMobile202204251501.jpg"
+                    /></span>
+                    <summary class="campaign-summary">
+                      <span class="name">Dilvin - Kadın Tekstil</span
+                      ><span class="hover-text"></span>
+                    </summary>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="component-item">
+                  <a href="#" class="widget widget-small-with-name"
+                    ><span class="image-container">
+                      <img
+                        src="https://cdn.dsmcdn.com/ty423/pimWidgetApi/mobile_20220509070024_2226817AyakkabiCantaMobile202205051801siyahbeyazsneaker.jpg"
+                    /></span>
+                    <summary class="campaign-summary">
+                      <span class="name">Siyah Beyaz Sneaker Fırsatları</span
+                      ><span class="hover-text"></span>
+                    </summary>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="component-item">
+                  <a href="#" class="widget widget-small-with-name"
+                    ><span class="image-container">
+                      <img
+                        src="https://cdn.dsmcdn.com/ty428/pimWidgetApi/mobile_20220510044026_2227213AyakkabiCantaMobile202205091701.jpg"
+                    /></span>
+                    <summary class="campaign-summary">
+                      <span class="name"
+                        >Fenomen Seçimleri - Mayıs Fırsatları</span
+                      ><span class="hover-text"></span>
+                    </summary>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="component-item">
+                  <a href="#" class="widget widget-small-with-name"
+                    ><span class="image-container">
+                      <img
+                        src="https://cdn.dsmcdn.com/ty426/pimWidgetApi/mobile_20220510084021_mobile20220506082904mobile20220505091811mobile20220430191443ssdasda.jpg"
+                    /></span>
+                    <summary class="campaign-summary">
+                      <span class="name">Gözlükte İndirim Zamanı</span
+                      ><span class="hover-text"></span>
+                    </summary>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="component-item">
+                  <a href="#" class="widget widget-small-with-name"
+                    ><span class="image-container">
+                      <img
+                        src="https://cdn.dsmcdn.com/ty426/pimWidgetApi/mobile_20220510071200_bbf1f4fa990.jpg"
+                    /></span>
+                    <summary class="campaign-summary">
+                      <span class="name"
+                        >Trendyol Collection - Yeni Sezon Fırsatları</span
+                      ><span class="hover-text"></span>
+                    </summary>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="component-item">
+                  <a href="#" class="widget widget-small-with-name"
+                    ><span class="image-container">
+                      <img
+                        src="https://cdn.dsmcdn.com/ty408/pimWidgetApi/mobile_20220425055250_2172106KadinMobile202204181801.jpg"
+                    /></span>
+                    <summary class="campaign-summary">
+                      <span class="name"
+                        >Mango - Kadın & Erkek & Çocuk Tekstil</span
+                      ><span class="hover-text"></span>
+                    </summary>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="component-item">
+                  <a href="#" class="widget widget-small-with-name"
+                    ><span class="image-container">
+                      <img
+                        src="https://cdn.dsmcdn.com/ty391/campaign/banners/original/603009/4b09265763_1.jpg"
+                    /></span>
+                    <summary class="campaign-summary">
+                      <span class="name">Fenomenlerin Kozmetik Seçimleri </span
+                      ><span class="hover-text"></span>
+                    </summary>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="component-item">
+                  <a href="#" class="widget widget-small-with-name"
+                    ><span class="image-container">
+                      <img
+                        src="https://cdn.dsmcdn.com/ty423/pimWidgetApi/mobile_20220509070024_2226817AyakkabiCantaMobile202205051801siyahbeyazsneaker.jpg"
+                    /></span>
+                    <summary class="campaign-summary">
+                      <span class="name">Siyah Beyaz Sneaker Fırsatları</span
+                      ><span class="hover-text"></span>
+                    </summary>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/80c34fa3b6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
