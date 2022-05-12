@@ -16,10 +16,12 @@ $(document).ready(function(){
         }
     })
 
-    $('.highlights-carousel').owlCarousel({
+    $('.widgets-carousel').owlCarousel({
         loop:false,
         autoWidth:true,
         dots:false,
+        mouseDrag:true,
+        pullDrag:true,
         responsive:{
             0:{
                 items:1

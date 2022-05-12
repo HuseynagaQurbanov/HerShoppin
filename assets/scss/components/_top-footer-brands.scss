@@ -1,0 +1,47 @@
+footer {
+  font-family: $primary-font;
+
+  .popular-brands-wrap-head {
+    position: relative;
+    font-size: 22px;
+    margin: 10px 0 20px;
+    color: $grey;
+  }
+
+  .popular-brands-wrap-content {
+    list-style-type: none;
+    padding: 0;
+    li {
+      .popular-brands-wrap-item {
+        color: $light-black;
+        font-size: 13px;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .popular-categories-wrap-head {
+    position: relative;
+    font-size: 22px;
+    margin: 10px 0 20px;
+    color: $grey;
+  }
+
+  .popular-categories-wrap-content {
+    list-style-type: none;
+    padding: 0;
+    li {
+      .popular-categories-wrap-item {
+        color: $light-black;
+        font-size: 13px;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

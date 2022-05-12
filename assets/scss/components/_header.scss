@@ -17,13 +17,13 @@ a {
 
           &:hover {
             a {
-              color: #666;
+              color: $grey;
               transition: all 0.4s;
             }
           }
 
           a {
-            color: #999;
+            color: $light-grey;
             font-size: 12px;
             line-height: 15px;
           }
@@ -52,8 +52,8 @@ a {
             border-bottom-right-radius: 0px;
             width: 90%;
             font-size: 14px;
-            color: #333;
-            background-color: #f3f3f3;
+            color: $dark-grey;
+            background-color: $white;
             border: 2px solid transparent;
             border-radius: 6px;
             padding: 10px 40px 10px 15px;
@@ -63,8 +63,8 @@ a {
 
             &:focus {
               border-color: $primary-color;
-              background-color: #fff;
-              box-shadow: 0 1px 10px 0 #0000031f, 0 3px 10px 0 #0000031f;
+              background-color: $white;
+              box-shadow: 0 1px 10px 0 $black, 0 3px 10px 0 $black;
             }
           }
 
@@ -116,7 +116,7 @@ a {
                     display: block;
                     font-size: 16px;
                     transition: opacity 0.4s ease;
-                    color: #333333;
+                    color: $dark-grey;
                     transition: all 12.4s;
                   }
 
@@ -132,7 +132,7 @@ a {
 
                 .link-text {
                   font-size: 13px;
-                  color: #333333;
+                  color: $dark-grey;
                   padding-left: 12px;
                   margin-top: 12px;
                   line-height: 30px;

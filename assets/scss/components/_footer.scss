@@ -1,0 +1,160 @@
+.footer {
+  background-color: $black;
+  font-family: $primary-font;
+
+  .payment-img {
+    list-style-type: none;
+
+    .title {
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+      width: 135px;
+    }
+
+    .footer-payment {
+      height: 100px;
+      display: flex;
+
+      .master-card-img {
+        background: url(https://cdn.dsmcdn.com/web/production/footer-master-card.png)
+          no-repeat center left;
+        width: 62px;
+        height: 35px;
+        display: inline-block;
+        position: relative;
+        top: -5px;
+        background-size: contain;
+      }
+
+      .visa-img {
+        background: url(https://cdn.dsmcdn.com/web/production/footer-visa-black.png)
+          no-repeat center left;
+        width: 75px;
+        height: 24px;
+        display: inline-block;
+        background-size: cover;
+        position: relative;
+        top: -3px;
+        margin-left: -14px;
+      }
+
+      .amex-img {
+        background: url(https://cdn.dsmcdn.com/web/production/footer-amex.png)
+          no-repeat center left;
+        width: 60px;
+        height: 25px;
+        display: inline-block;
+        background-size: cover;
+        position: relative;
+        top: -2px;
+        margin-left: 4px;
+      }
+    }
+  }
+
+  .title-txt {
+    color: $white;
+    text-decoration: none;
+    font-size: 22px;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .links {
+    list-style-type: none;
+    li {
+      margin-bottom: 15px;
+      a {
+        font-size: 13px;
+        color: $white;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .mobile-aps {
+    .app {
+      border: 1px solid white;
+      border-radius: 10px;
+      width: 160px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      .app-name {
+        color: white;
+        font-size: 18px;
+        line-height: 42px;
+        height: 30px;
+      }
+
+      i {
+        color: white;
+        font-size: 34px;
+      }
+    }
+
+    .ios {
+      cursor: pointer;
+    }
+
+    .android {
+      cursor: pointer;
+      i {
+        font-size: 24px;
+        margin-left: 8px;
+      }
+    }
+  }
+
+  .social {
+    display: flex;
+    justify-content: space-between;
+    .icon {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      color: $black;
+      background: $white;
+      text-align: center;
+      line-height: 30px;
+    }
+  }
+}
+
+.copy-right {
+  background-color: #2d2d2d;
+  font-family: $primary-font;
+  .copy-right-text {
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+  }
+
+  .copy-right-info {
+    font-size: 12px;
+    height: 100%;
+
+    ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 100%;
+      li {
+        .copy-right-info-text {
+          color: $white;
+        }
+      }
+    }
+  }
+}
