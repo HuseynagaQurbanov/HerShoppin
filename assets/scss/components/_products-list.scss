@@ -1,0 +1,47 @@
+.breadcrumbs-nav {
+  font-family: $primary-font;
+  .breadcrumb {
+    .breadcrumb-item {
+      padding: 0;
+
+      &::before {
+        padding: 0;
+      }
+
+      &:last-child {
+        a::after {
+          content: "";
+        }
+
+        a {
+          font-weight: 700;
+        }
+      }
+
+      a {
+        height: 18px;
+        max-width: 210px;
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-size: 14px;
+        line-height: 18px;
+        color: #333;
+
+        &::after {
+          content: "\f105";
+          font-family: FontAwesome;
+          color: #a632e0;
+          position: relative;
+          top: 1px;
+        }
+
+        span {
+          margin-right: 10px;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}

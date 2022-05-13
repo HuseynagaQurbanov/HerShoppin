@@ -1,0 +1,118 @@
+#sticky {
+  font-family: $primary-font;
+  font-size: 14px;
+
+  .form-check {
+    margin-left: 5px;
+
+    .form-check-input:checked {
+      background-color: $primary-color;
+      border-color: $primary-color;
+    }
+
+    .form-check-input:focus {
+      outline: 0;
+      box-shadow: 0 0 0 0.25rem rgba(225, 13, 253, 0.219);
+    }
+  }
+  .non-ctgry {
+    overflow-y: none;
+    margin-left: 0px !important;
+  }
+
+  .arguments-wrap {
+    .filter-wrap {
+      position: relative;
+      margin-bottom: 20px;
+      margin-top: 20px;
+
+      .ctgry {
+        padding-left: 4px;
+        overflow-y: none;
+      }
+
+      .fltr-srch-prc-rng {
+        position: relative;
+        margin: 0;
+        max-height: 184px;
+        font-size: 14px;
+
+        .fltr-srch-prc-rng-input {
+          margin-bottom: 5px;
+          height: 25px;
+          background-color: #fafafa;
+          border: solid 1px #e2e2e2;
+          border-radius: 6px;
+          width: 36px;
+        }
+
+        .fltr-srch-prc-rng-sprtr {
+          display: inline-block;
+          vertical-align: middle;
+          color: #9c9c9c;
+          margin-left: 6px;
+          margin-right: 6px;
+        }
+      }
+
+      .filter-title {
+        font-size: 14px;
+        color: $dark-grey;
+        margin-bottom: 8px;
+        font-weight: 700;
+      }
+
+      .fa-solid {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+      }
+
+      .scroll {
+        padding-left: 4px;
+        overflow-y: scroll;
+        &::-webkit-scrollbar {
+          width: 8px;
+        }
+        &::-webkit-scrollbar-thumb {
+          background: #888;
+          border-radius: 100px;
+        }
+        &::-webkit-scrollbar-track {
+          background: #f1f1f1;
+          border-radius: 100px;
+        }
+      }
+
+      .scroll {
+        .fltr-item {
+          display: flex;
+          align-items: center;
+          margin: 5px 0 5px 0;
+          padding: 1px;
+          cursor: pointer;
+          .fltr-item-text {
+            color: $primary-color;
+            font-size: 14px;
+            font-weight: 700;
+            padding-left: 5px;
+          }
+        }
+
+        .form-check {
+          margin-left: 0px;
+
+          .form-check-input:checked {
+            background-color: $primary-color;
+            border-color: $primary-color;
+          }
+
+          .form-check-input:focus {
+            outline: 0;
+            box-shadow: 0 0 0 0.25rem rgba(225, 13, 253, 0.219);
+          }
+        }
+      }
+    }
+  }
+}
