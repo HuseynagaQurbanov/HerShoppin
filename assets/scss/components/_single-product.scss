@@ -295,6 +295,7 @@
         overflow: hidden;
         list-style-type: none;
         padding-left: 0px;
+
         .return-info {
           .product-description-link {
             color: #666;
@@ -310,6 +311,8 @@
             no-repeat 0 11px !important;
           color: #333;
           padding-left: 15px;
+
+          
           .product-description-market-place {
             position: relative;
             font-family: $primary-font;
@@ -414,6 +417,37 @@
         color: $primary-color;
         margin: auto 0 auto auto;
       }
+    }
+  }
+
+  .side-comment-row{
+    text-align: center;
+    
+    .star-wrapper{
+      display: flex;
+      justify-content: center;
+      .star-icon{
+        background-color: #eadaf280;
+        width: 43px;
+        height: 43px;
+        border-radius: 50%;
+  
+        i{
+          font-size: 20px;
+          position: relative;
+          top: 10px;
+          color: $primary-color;
+        }
+      }
+    }
+
+    .text-wrap{
+      font-family: $primary-font;
+      -webkit-font-smoothing: antialiased;
+      font-size: 12px;
+      color: $primary-color;
+      margin-top: 10px;
+      margin-bottom: 24px;
     }
   }
 
@@ -535,5 +569,61 @@
       border-bottom: 1px solid #e2e2e2;
       padding: 13px 54px 10px 13px;
     }
+  }
+}
+
+.comment-side-title{
+  height: 25px;
+  margin-bottom: 20px;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333;
+  font-family: $primary-font;
+  -webkit-font-smoothing: antialiased;
+
+  
+}
+
+.widget {
+  border: solid 1px #eadaf280;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px #0000000d;
+  width: 100%;
+  box-sizing: border-box;
+
+  .widget-row{
+    padding: 13px 15px 12px;
+
+    .star-wrapper{
+      display: flex;
+      justify-content: center;
+
+      .star-icon{
+        background-color: #eadaf280;
+        width: 43px;
+        height: 43px;
+        border-radius: 50%;
+
+        i{
+          font-size: 20px;
+          position: relative;
+          top: 10px;
+          color: $primary-color;
+        }
+      }
+    }
+
+    .text-wrap{
+      font-family: $primary-font;
+      -webkit-font-smoothing: antialiased;
+      font-size: 12px;
+      color: $primary-color;
+      margin-top: 10px;
+      margin-bottom: 24px;
+    }
+  }
+
+  .side-comment-row{
+    text-align: center;
   }
 }
