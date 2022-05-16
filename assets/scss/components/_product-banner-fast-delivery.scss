@@ -1,0 +1,30 @@
+.search-result-title-wrap {
+  .search-result-title {
+    .description {
+    }
+  }
+  .banner-fast-delivery {
+    background-color: #deffed;
+    padding: 20px;
+    border-radius: 6px;
+    position: relative;
+    .banner-fast-delivery-icon {
+      color: #3ec461;
+      font-size: 19px;
+    }
+    .banner-fast-del-desc-b {
+      font-family: $primary-font;
+    }
+    .banner-fast-delivery-btn {
+      position: absolute;
+      top: 15px;
+      right: 17px;
+      border: none;
+      background-color: #3ec461;
+      border-radius: 4px;
+      padding: 5px 9px 5px 9px;
+      color: $white;
+      font-family: $primary-font;
+    }
+  }
+}
