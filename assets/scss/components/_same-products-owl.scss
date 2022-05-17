@@ -1,0 +1,159 @@
+.same-products-title {
+  height: 25px;
+  margin-bottom: 20px;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333;
+  font-family: $primary-font;
+  -webkit-font-smoothing: antialiased;
+
+  h3 {
+    font-size: 100%;
+    font-weight: 400;
+  }
+}
+
+.widgets {
+  .same-product-carousel {
+    overflow-x: hidden;
+    .owl-stage {
+      display: flex;
+    }
+    .owl-nav{
+        display: none;
+    }
+    .item {
+      .product-item {
+        margin-top: 13px;
+        overflow: hidden;
+        transition: box-shadow 0.3s;
+        &:hover {
+          background-color: $white;
+          box-shadow: 0 2px 9px 1px rgba(0, 0, 1, 0.2);
+          border: 1px solid $primary-color;
+        }
+        &:hover {
+          .product-item-top-side {
+            img {
+              border: 0px solid $white;
+              transform: scale(1.02, 1.02);
+            }
+          }
+        }
+        .product-item-top-side {
+          position: relative;
+          height: auto;
+          border-radius: 5px;
+          border: 0px solid $very-light-grey;
+
+          img {
+            max-height: 100%;
+            max-width: 100%;
+            transition: transform 0.4s;
+          }
+          .product-item-btn {
+            &:hover {
+              color: $primary-color;
+            }
+            z-index: 2;
+            box-shadow: 2px 2px 10px rgba(0, 0, 1, 0.2);
+            padding: 10px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            border-radius: 50%;
+            width: 36px;
+            height: 36px;
+            line-height: 14px;
+            background-color: white;
+            color: black;
+            transition: all 0.2s;
+            cursor: pointer;
+          }
+          .product-details {
+            position: absolute;
+            top: 5px;
+            flex-direction: column;
+            z-index: 1;
+            margin-left: 5px;
+            cursor: pointer;
+            .fast-delivery {
+              width: 83%;
+              background-color: #3ec461;
+              height: 29px;
+              padding: 6px;
+              text-align: center;
+              line-height: 9px;
+              font-family: $primary-font;
+              color: $white;
+              font-size: 9px;
+              border-radius: 4px;
+              font-weight: 600;
+              margin-bottom: 3px;
+            }
+            .cargo-free {
+              width: 83%;
+              background-color: #535251;
+              height: 29px;
+              padding: 6px;
+              text-align: center;
+              line-height: 9px;
+              font-family: $primary-font;
+              color: $white;
+              font-size: 9px;
+              border-radius: 4px;
+              font-weight: 600;
+              margin-bottom: 3px;
+            }
+          }
+        }
+      }
+
+      .product-item-bottom-side {
+        position: relative;
+        margin: 0;
+        height: 110px;
+        .product-item-title {
+          text-overflow: ellipsis;
+          overflow: hidden;
+          padding: 10px;
+          font-size: 13px;
+          font-family: $primary-font;
+          .product-title-b {
+            font-weight: 700;
+          }
+        }
+        .price {
+          font-family: $primary-font;
+          font-size: 18px;
+          color: $primary-color;
+          margin-left: 5px;
+          .sale-price {
+            position: absolute;
+            border: 1px solid $primary-color;
+            height: 28px;
+            border-radius: 5px;
+            bottom: 24px;
+            margin-left: 5px;
+            padding: 6px;
+            color: #535251;
+            text-align: center;
+            line-height: 16px;
+            font-family: $primary-font;
+            font-weight: 400;
+            font-size: 12px;
+            top: 75px;
+            .sale-price-description {
+              font-family: $secondary-font;
+              color: $primary-color;
+              font-size: 16px;
+              font-weight: 700;
+              line-height: 10px;
+              padding-left: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
