@@ -34,7 +34,7 @@
               box-shadow: inset 0 -2px 0 0 $primary-color;
 
               .sub-nav {
-                overflow: visible;
+                display: block;
               }
             }
             .category-header {
@@ -55,7 +55,7 @@
             }
 
             .sub-nav {
-              display: block;
+              display: none;
               position: absolute;
               width: 100%;
               left: 0;
@@ -64,7 +64,7 @@
               background: $white;
               box-shadow: inset 0 0 1px 1px $very-light-grey;
               border-radius: 0 0 6px 6px;
-              overflow: hidden;
+
               .sub-nav-center {
                 overflow: hidden;
                 box-sizing: border-box;
@@ -72,7 +72,7 @@
                 width: 100%;
                 background: $white;
                 z-index: -1;
-                overflow: hidden;
+
                 .sub-nav-outer {
                   overflow: hidden;
                   height: 320px;
